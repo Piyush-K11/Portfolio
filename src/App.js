@@ -20,7 +20,7 @@ export const data = {
   phone: '+91 7291881611',
   github: 'https://github.com/Piyush-K11',
   linkedin: 'https://www.linkedin.com/in/piyush-kumar-67190630a/',
-  resumeUrl: '/PIYUSH_KUMAR_Resume.pdf', // Replace with your actual resume link
+  resumeUrl: '/PIYUSH_KUMAR_RESUME.pdf', 
 
   skills: {
   'Languages': ['Python', 'SQL', 'C/C++', 'Java', 'PHP'],
