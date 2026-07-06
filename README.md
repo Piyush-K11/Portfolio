@@ -2,7 +2,7 @@
 
 A dark, minimal personal portfolio built with React — showcasing my work as a Data Analyst with a focus on Business Intelligence and Data Science.
 
-🔗 **Live Site:** [Add link here once deployed]
+🔗 **Live Site:** [portfoliowebsite-nine-psi.vercel.app](https://portfoliowebsite-nine-psi.vercel.app)
 
 ![Portfolio Preview](./public/preview.png)
 
@@ -30,8 +30,8 @@ The site is built from scratch with a custom dark-themed design system — no UI
 ## Getting Started
 
 ```bash
-git clone https://github.com/Piyush-K11/portfolio.git
-cd portfolio
+git clone https://github.com/Piyush-K11/Portfolio.git
+cd Portfolio
 npm install
 npm start
 ```
@@ -42,10 +42,10 @@ Runs locally at `http://localhost:3000`
 
 ```
 src/
-├── App.js              ← All personal data (bio, skills, projects, experience)
-├── App.css             ← Global layout & shared styles
+├── App.js               ← All personal data (bio, skills, projects, experience)
+├── App.css              ← Global layout & shared styles
 ├── index.js
-├── index.css           ← Design tokens (colors, fonts)
+├── index.css            ← Design tokens (colors, fonts)
 └── components/
     ├── Navbar.js / .css
     ├── Hero.js / .css
@@ -55,13 +55,14 @@ src/
     ├── Projects.js / .css
     ├── Education.js / .css
     ├── Contact.js / .css
-    └── Footer.js / .css
+    ├── Footer.js / .css
+    └── ParticleBackground.js
 ```
 
 ## Contact
 
 - **Email:** work.piyushk11@gmail.com
-- **LinkedIn:** [Piyush Kumar](https://linkedin.com/in/Piyush-Kumar)
+- **LinkedIn:** [Piyush Kumar](https://www.linkedin.com/in/piyush-kumar-67190630a/)
 - **GitHub:** [@Piyush-K11](https://github.com/Piyush-K11)
 
 ## License
