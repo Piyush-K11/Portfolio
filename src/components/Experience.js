@@ -30,7 +30,11 @@ export default function Experience({ experience }) {
               <div>
                 <h3 className="exp-role">{exp.role}</h3>
                 <p className="exp-company">
-                  {exp.company} · <span>{exp.location}</span>
+                  {exp.url ? (
+                    <a href={exp.url} target="_blank" rel="noreferrer" className="company-link">{exp.company}</a>
+                  ) : (
+                    exp.company
+                  )} · <span>{exp.location}</span>
                 </p>
               </div>
               <span className="exp-period">{exp.period}</span>

@@ -25,8 +25,8 @@ export const data = {
   skills: {
   'Languages': ['Python', 'SQL', 'C/C++', 'Java', 'PHP'],
   'Data Analysis & BI': ['Power BI', 'DAX', 'Excel (Advanced)', 'Data Modeling', 'KPI Dashboards'],
-  'Python Libraries': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Plotly'],
-  'Web Development': ['HTML', 'CSS', 'JavaScript'],
+  'Python Libraries': ['Pandas', 'NumPy', 'openpyxl', 'Matplotlib', 'Seaborn', 'Plotly'],
+  'Web Development': ['Flask', 'React', 'HTML', 'CSS', 'JavaScript'],
   'CS Fundamentals': ['DSA', 'OOP', 'Operating Systems'],
   'Tools & Platforms': ['Git', 'GitHub', 'VS Code'],
 },
@@ -35,10 +35,12 @@ export const data = {
     {
       role: 'MIS Intern',
       company: 'Zippee',
+      url: 'https://www.zippee.delivery/',
       location: 'Delhi',
-      period: 'May 2026 – Oct 2026',
+      period: 'May 2026 – Sep 2026',
       bullets: [
         'Processed weekly rider payout cycles across 11 stores for in-house and vendor-supplied riders, auditing vendor commissions to flag anomalies and ensure zero billing discrepancies.',
+        'Built a full-stack payout automation tool (Flask + Python) that converts raw rider attendance files into formatted payout workbooks across 11 vendor rate schemes — reducing manual processing time from hours to minutes.',
         'Built Power BI dashboards tracking DCPO, weekly sales, rider count, order volume, and vendor-wise cost breakdown to surface weekly performance insights for management.',
         'Streamlined weekly MIS reporting in Excel by consolidating rider activity, payout summaries, and vendor invoices into structured trackers.',
       ],
@@ -56,6 +58,19 @@ export const data = {
   ],
 
   projects: [
+    {
+      title: 'Last-Mile Rider Payout Automation',
+      description: 'A Flask web app and Python engine that automates weekly rider payout calculations across 11 vendor rate schemes. Upload raw attendance files, preview payouts, and download formatted Excel workbooks — with bulk mode, shipment cross-checks, and outlier flagging.',
+      tech: ['Python', 'Flask', 'Pandas', 'openpyxl', 'Excel'],
+      highlights: [
+        '11 payout schemes across 13 vendors behind one interface',
+        'Bulk mode processes multiple files and returns a ZIP',
+        'Reduced manual payout processing from hours to minutes',
+        'Auditable Excel output with real formulas',
+      ],
+      github: 'https://github.com/Piyush-K11/Last-Mile-Rider-Payout-Automation',
+      year: '2026',
+    },
     {
       title: 'Telecom Customer Churn Analysis',
       description: 'Built two interactive Power BI dashboards analyzing churn behavior of 7,043 telecom customers, identifying $2.86M in yearly charges at risk with an overall churn rate of 26.54%.',

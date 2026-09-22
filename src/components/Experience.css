@@ -64,6 +64,17 @@
   font-weight: 400;
 }
 
+.company-link {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.company-link:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
 .exp-period {
   font-family: var(--font-mono);
   font-size: 11px;
