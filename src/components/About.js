@@ -13,8 +13,8 @@ export default function About({ data }) {
           <div className="about-text">
                    <p>
               I'm a <strong>BCA student at JIMS, Delhi</strong> with real-world experience as an
-              MIS Intern at <strong>Zippee</strong> — where I manage rider payouts across 11 stores
-              and build Power BI dashboards that surface weekly insights for management.
+              Data Analyst Intern at <strong>Zippee</strong> — where I managed rider payouts across 11 stores
+              and built Power BI dashboards that surfaced weekly insights for management.
             </p>
             <p>
               I enjoy working with data end-to-end — from wrangling raw Excel sheets and

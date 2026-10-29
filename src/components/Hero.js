@@ -3,7 +3,7 @@ import './Hero.css';
 
 const TYPED_STRINGS = [
   'Data Analyst',
-  'MIS Intern @ Zippee',
+  'Ex-Data Analyst Intern @ Zippee',
   'Aspiring Data Scientist',
 ];
 

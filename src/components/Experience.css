@@ -38,6 +38,11 @@
   gap: 20px;
 }
 
+.exp-entry-separated {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+
 .exp-header {
   display: flex;
   justify-content: space-between;

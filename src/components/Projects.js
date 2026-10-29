@@ -16,9 +16,11 @@ export default function Projects({ projects }) {
                 <div className="project-meta">
                   <span className="tag">{p.year}</span>
                 </div>
-                <a href={p.github} target="_blank" rel="noreferrer" className="project-gh-link">
-                  GitHub ↗
-                </a>
+                {p.github && (
+                  <a href={p.github} target="_blank" rel="noreferrer" className="project-gh-link">
+                    GitHub ↗
+                  </a>
+                )}
               </div>
 
               <h3 className="project-title">{p.title}</h3>

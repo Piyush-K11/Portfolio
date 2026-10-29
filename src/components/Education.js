@@ -32,7 +32,15 @@ export default function Education({ education, certifications }) {
                 <div className="cert-item card" key={i}>
                   <span className="cert-icon">✦</span>
                   <div>
-                    <p className="cert-name">{c.name}</p>
+                    <p className="cert-name">
+                      {c.url ? (
+                        <a href={c.url} target="_blank" rel="noreferrer" className="cert-link">
+                          {c.name}
+                        </a>
+                      ) : (
+                        c.name
+                      )}
+                    </p>
                     <p className="cert-issuer">{c.issuer}</p>
                   </div>
                 </div>

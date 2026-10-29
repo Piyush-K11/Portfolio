@@ -8,7 +8,7 @@ A dark, minimal personal portfolio built with React — showcasing my work as a 
 
 ## About This Project
 
-This is my personal portfolio, built to showcase my experience, projects, and skills as I work toward a career in Data Analytics and Data Science. It highlights my current role as an MIS Analyst at Zippee, real-world data projects involving large datasets, my technical skill set, and education background.
+This is my personal portfolio, built to showcase my experience, projects, and skills as I work toward a career in Data Analytics and Data Science. It highlights my internship as a Data Analyst Intern at Zippee, real-world data projects involving large datasets, my technical skill set, and education background.
 
 The site is built from scratch with a custom dark-themed design system — no UI frameworks — and includes an animated particle background, a typing-effect hero section, and a fully responsive layout that works across desktop, tablet, and mobile.
 

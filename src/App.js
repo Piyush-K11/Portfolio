@@ -25,7 +25,7 @@ export const data = {
   skills: {
   'Languages': ['Python', 'SQL', 'C/C++', 'Java', 'PHP'],
   'Data Analysis & BI': ['Power BI', 'DAX', 'Excel (Advanced)', 'Data Modeling', 'KPI Dashboards'],
-  'Python Libraries': ['Pandas', 'NumPy', 'openpyxl', 'Matplotlib', 'Seaborn', 'Plotly'],
+  'Python Libraries': ['Pandas', 'NumPy', 'scikit-learn', 'openpyxl', 'Matplotlib', 'Seaborn', 'Plotly'],
   'Web Development': ['Flask', 'React', 'HTML', 'CSS', 'JavaScript'],
   'CS Fundamentals': ['DSA', 'OOP', 'Operating Systems'],
   'Tools & Platforms': ['Git', 'GitHub', 'VS Code'],
@@ -33,7 +33,7 @@ export const data = {
 
   experience: [
     {
-      role: 'MIS Intern',
+      role: 'Data Analyst Intern',
       company: 'Zippee',
       url: 'https://www.zippee.delivery/',
       location: 'Delhi',
@@ -46,10 +46,20 @@ export const data = {
       ],
     },
     {
+      role: 'Technical Assistant Director – Google Developers Group (GDG)',
+      company: 'JIMS',
+      location: 'Delhi',
+      period: 'Oct 2026 – Present',
+      bullets: [
+        'Serve as Technical Assistant Director for Google Developers Group (GDG) at JIMS, supporting the planning and delivery of technical events and workshops for student developers.',
+        'Coordinate speakers, members, communication, and event logistics to help grow the student developer community at JIMS.',
+      ],
+    },
+    {
       role: 'IPR Coordinator – Institution\'s Innovation Council (IIC)',
       company: 'JIMS',
       location: 'Delhi',
-      period: '2024 – Present',
+      period: '2025 – 2026',
       bullets: [
         'Organized 30+ IPR sessions, workshops, and innovation events with average participation of 40–50 students per event.',
         'Led Smart India Hackathon 2025 as Main Coordinator for 100+ participants; secured 2nd place as a participant.',
@@ -58,6 +68,19 @@ export const data = {
   ],
 
   projects: [
+    {
+      title: "Women's Labour Force Participation, India (PLFS 2025)",
+      description: "Analyzed 1.15M-record national survey microdata from the Periodic Labour Force Survey using survey weights, validating results against published MoSPI figures. Built weighted logistic regression and gradient boosting models to identify what drives women's workforce participation.",
+      tech: ['Python', 'Pandas', 'scikit-learn'],
+      highlights: [
+        '1.15M survey records analyzed with survey weights',
+        'Validated against MoSPI: 40.0% female, 79.1% male participation',
+        'Weighted logistic regression and gradient boosting (AUC 0.763)',
+        'Found a U-shaped relationship between education and participation',
+      ],
+      github: 'https://github.com/Piyush-K11/plfs-women-labour-force',
+      year: '2026',
+    },
     {
       title: 'Last-Mile Rider Payout Automation',
       description: 'A Flask web app and Python engine that automates weekly rider payout calculations across 11 vendor rate schemes. Upload raw attendance files, preview payouts, and download formatted Excel workbooks — with bulk mode, shipment cross-checks, and outlier flagging.',
@@ -109,8 +132,16 @@ export const data = {
   ],
 
   certifications: [
-    { name: 'Google Data Analytics Professional Certificate', issuer: 'Coursera' },
-    { name: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate', issuer: 'Oracle' },
+    {
+      name: 'Google Data Analytics Professional Certificate',
+      issuer: 'Coursera',
+      url: 'https://www.coursera.org/account/accomplishments/verify/FR9VEHWIIDXO?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course',
+    },
+    {
+      name: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate',
+      issuer: 'Oracle',
+      url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=A2FFF9548D950717EFB39C59749E857ABF308ABC3FFA948A60744FAF1E83DA91',
+    },
     { name: 'Artificial Intelligence Fundamentals', issuer: 'IBM SkillsBuild' },
   ],
 };
